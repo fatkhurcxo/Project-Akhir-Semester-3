@@ -1,4 +1,4 @@
-# Kafatapus 2 ( No Haris )
+# Kaftapus 2 ( No Haris )
 Final Project of Semester 3
 
 TEAM
