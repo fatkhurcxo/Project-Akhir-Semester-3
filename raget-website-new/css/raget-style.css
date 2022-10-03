@@ -1,0 +1,174 @@
+*{
+    margin: 0%;
+}
+body{
+    background-color: #F6F6F6;
+}
+
+/* BAGIAN HEADER */
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-family: Vidaloka;
+}
+.header-container{
+    width: 100%;
+    height: 80px;
+    background-color: #7895B2;
+    box-sizing: border-box;
+}
+
+.header-logo{
+    float: left;
+    padding-left: 5%;
+    padding-top: 13px;
+}
+
+.header-navigasi{
+    float: left;
+    padding-left: 45%;
+    padding-top: 25px;
+}
+.header-navigasi-icon{
+    padding-right: 20px;
+}
+
+.header-navigasi a{
+    padding-right: 20px;
+}
+
+.header-icon{
+    float: right;
+    padding-right: 5%;
+    padding-top: 20px;
+}
+
+/* BAGIAN SECTION 1 */
+
+section a{
+    color: white;
+    text-decoration: none;
+}
+.artikel-konten-pertama{
+    float: left;
+    color: white;
+    width: 510px;
+    height: 340px;
+    /* background-color: coral; */
+    box-sizing: border-box;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.text-judul{
+    font-size: 56px;
+}
+
+.sub-judul-artikel-konten-pertama{
+    padding-top: 40px;
+}
+
+.text-subjudul{
+    font-size: 28px;
+}
+
+.text-deskripsi{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.text-judul, .text-subjudul{
+    font-family: Vidaloka;
+    letter-spacing: 0.02em;
+}
+.konten-pertama-1{
+    width: 100%;
+    height: 620px;
+    background-color: #7895B2;
+}
+.btn-artikel-konten-pertama{
+    width: 158px;
+    height: 34px;
+    border-bottom: 2px solid white;
+    margin-top: 100px;
+    /* background-color:lightgreen; */
+
+}
+
+.text-btn{
+    padding-top: 10px;
+}
+.text-btn a{
+    font-size: 16px;
+}
+.icon-btn{
+    float: left;
+    padding-left: 137px;
+    margin-top: -20px;
+
+}
+.bg-produk-img{
+    float: right;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+.produk-image-konten-pertama{
+    position: absolute;
+    right: 10%;
+    float: right;
+    width: 460px;
+    height: 454px;
+    /* background-color:; */
+}
+.produk-img{
+    position: absolute;
+    top: 50px;
+    z-index: 10;
+}
+#produk-pertama{
+    z-index: 20;
+    right: 10px;
+    top: 280px;
+}
+#produk-kedua{
+    top: 10px;
+    right: 50px;
+}
+#produk-ketiga{
+    top: 150px;
+    left: -20px;
+}
+
+/* BAGIAN SECTION 2 */
+
+.img-konten-2-1{
+    float: left;
+}
+
+.img-produk-konten-2-2{
+    float: left;
+    width: 300px;
+    height: 300px;
+    background-color: grey;
+}
+
+.judul-ktn-2 p{
+    text-align: center;
+    font-family: Vidaloka;
+    font-size: 30px;
+}
+
+.subjudul-ktn-2 p{
+    padding-top: 10px;
+    text-align: center;
+    font-family: Vidaloka;
+    font-size: 20px;
+}
+
+.judul-konten-2-container{
+    margin-top: 40px;
+}
+
+.produk-3-konten2{
+
+}
