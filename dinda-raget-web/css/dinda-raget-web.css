@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins&family=Unlock&family=Unna&family=Vidaloka&display=swap');
+
+/* body{
+	background-color: black;
+	margin: 0px;
+}
+section{
+	box-sizing: border-box;
+}
+.header-1{
+	background-color: #898B8A;
+	height: 80px;
+	
+
+}
+.header-logo{
+	float: left;
+	margin: 10px 0px 0px 100px;
+}
+.header-navigasi{
+	float: left;
+	margin-left: 600px;
+	margin-top: 30px;
+	
+}
+.header-navigasi a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	padding-right: 30px;
+}
+.icon-navigasi li{
+	float: left;
+	display: inline-block;
+	padding-right: 30px;
+}
+.header-icon{
+	float: right;
+	margin-right: 100px;
+	margin-top: 5px;
+}
+.konten-pertama{
+	background-image: url(../img/bg-konten-1.png);
+	opacity: 70%;
+	width: 100%;
+	height: 943px;
+	background-size: cover;
+	margin-top: -0px;
+	background-position: bottom;
+}
+.tombol{
+	width: 300px;
+	height: 40px;
+	background-color: skyblue;
+	border-bottom: 2px solid white;
+	margin-top: 100px;
+}
+.isi-konten-pertama{
+	width: 550px;
+	height: 250px;
+	padding: 150px 0px 0px 73px;
+}
+.text-konten-1{
+	color: white;
+}
+#judul-konten-1{
+	font-size: 64px;
+}
+#text-deskripsi{
+	font-size: 19px;
+}
+.icon-btn a img{
+	padding: 0px 0px 0px 275px;
+}
+.icon-btn{
+	margin-top: -20px;
+}
+hr{
+	color: white;
+}
+.judul-btn-1{
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+	
+} */
+*{
+	font-family: Unna;
+	margin: 0;
+	padding: 0;
+}
+.navbar{
+	font-family: Unna;
+	letter-spacing: 0.5px;
+	box-sizing: border-box;
+}
+.konten-pertama{
+	background-color: black;
+}
+.carousel-item{
+}
+.d-block{
+	opacity: 70%;
+	height: 700px;
+}
+.collapse{
+	margin-right: 5%;
+}
+.navbar-brand{
+	margin-left: 5%;
+	font-size: 24px;
+	font-family: Anton;letter-spacing: 1px;
+	font-style: italic;
+}
+.nav-link{
+	color: white;
+}
+h5{
+	font-size: 56px;
+}
+p{
+	font-size: 20px;
+}
+.container-sm{
+	text-align: center;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	
+	
+}
+.col-3{
+	background-color: rgb(247, 247, 247);
+	border: 1px solid grey;
+	/* height: 300px; */
+	display: grid;
+	place-items: center;
+	box-sizing: border-box;
+	
+}
+.produk-size{
+	height: 270px;
+}
+h3{
+	font-weight:bold ;
+}
+.container-fluid{
+	
+}
+hr{
+	width: 80%;
+	margin: 0px auto;
+	color: blue;
+}
+#content-grid-4{
+	background-color: #ecd9ad;
+	height: 500px;
+	border: none;
+}
+#content-grid-2{
+	background-color: #AEBDCA;
+	height: 500px;
+	border: none;
+}
+.anjing{
+	width: 100%;
+}
+.judul-konten3{
+	text-align: left;
+}
+h4{
+	font-weight: bolder;
+	padding-bottom: 10%;
+}
+
+
+footer{
+    margin-top: 1%;
+    width: 100%;
+    height: 355px;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+.copyright{
+    width: 228px;
+    height: 254px;
+    /* background-color: salmon; */
+    box-sizing: border-box;
+    margin-left: 5%;
+    
+}
+/* .text-copyright{
+    
+} */
+.text-copyright p{
+    padding-top: 40%;
+    font-family: Poppins;
+	font-size: 13px;
+    
+}
+.justshopping{
+    width: 600px;
+    /* height: 64px; */
+    /* background-color: lightcyan; */
+    /* align-self: center;
+    justify-self: center; */
+}
+
+.justshopping p{
+    font-family: Unlock;
+    font-size: 36px;
+    text-align: center;
+}
+
+span{
+    opacity: 1;
+    transition: all 0.4s ease;
+    color: #7895B2;
+
+}
+
+span.fade{
+    opacity: 1;
+    color: black;
+}
+.social-media{
+    width: 84px;
+    height: 61px;
+    /* background-color: coral; */
+    /* align-self: center; */
+    box-sizing: border-box;
+    margin-right: 5%;
+
+}
+.icon-social-media svg{
+    padding-right: 4%;
+}
+.social-media p{
+    font-family: Poppins;
+    padding-bottom: 15%;
+}
+.icon-social-media{
+    align-content: flex-end;
+}
