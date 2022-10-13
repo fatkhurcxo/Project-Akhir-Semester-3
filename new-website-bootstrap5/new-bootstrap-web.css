@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Unlock&family=Unna&family=Vidaloka&display=swap');
+
+
+.navbar{
+    background-color: #7895B2;
+}
+
+.list-nav{
+    color: white;
+    text-decoration: none;
+}
+.navigasi-dengan-icon ul li a{
+    padding-right: 5%;
+}
+.navigasi-dengan-icon{
+    margin-right: 5%;
+}
+.navbar-brand{
+    margin-left: 5%;
+}
+.navigasi-without-icon{
+    margin-right: 5%;
+}
+.navbar a{
+    font-family: Vidaloka;
+}
+.navbar a:hover{
+    color: white;
+}
+.dropdown-item:hover{
+    background-color: #7895B2;
+}
+
+/* BAGIAN KONTEN PERTAMA */
+
+
+.carousel-item img{
+    width: 400px;
+    height: 400px;
+}
+#carouselExampleInterval{
+    position: absolute;
+    top: 150px;
+    right: 200px;
+    display: grid;
+    place-items: center;
+}
+.konten-pertama{
+    background-color: #7895B2;
+    height: 575px;
+}
+.col-md-6{
+    /* border: 2px solid black; */
+    /* background-color: coral; */
+}
+.container-md{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: lightgreen; */
+    box-sizing: border-box;
+    font-family: Vidaloka;
+    color: white;
+}
+.shape-hero-img{
+    /* background-color: coral; */
+    margin-top: 65px;
+}
+.judul-ktn-pertama{
+    font-size: 56px;
+}
+.subjudul-ktn-pertama{
+    font-size: 28px;
+}
+.btn-konten-pertama{
+    display: flex;
+    margin-top: 21%;
+    width: 158px;
+    border-bottom: 2px solid white;
+}
+.text-btn-konten-pertama{
+    /* flex-basis: 50%; */
+    flex-grow: 3;
+    /* background-color: coral; */
+}
+.btn-konten-pertama:hover{
+    border-bottom: 2px solid rgb(108, 108, 243);
+}
+.icon-btn-konten-pertama{
+    /* flex-basis: 50%; */
+    flex-grow: 1;
+    /* background-color: lightgrey; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#link-btn-ktn-pertama{
+    text-decoration: none;
+    color: white;
+}
+
+/* BAGIAN SECTION KEDUA */
+.konten-kedua-1{
+    width: 100%;
+    height: 700px;
+    background-color: black;
+}
+
+.judul-ktn-2 p{
+    text-align: center;
+    font-family: Vidaloka;
+    font-size: 30px;
+}
+
+.subjudul-ktn-2 p{
+    padding-top: 10px;
+    text-align: center;
+    font-family: Vidaloka;
+    font-size: 20px;
+}
+
+.judul-konten-2-container{
+    margin-top: 40px;
+}
+.container-hero{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    /* background-color: yellow; */
+    align-items: center;
+    justify-content: center
+    
+}
+.container-konten2-1{
+    width: 1245px;
+    height: 620px;
+    display: flex;
+   /* background-color: lightgray; */
+    justify-content: space-between;
+
+
+    /* width: 100%;
+    height: 700px;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: lightgoldenrodyellow;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+.hero-img-konten2{
+    /* height: ; */
+    background-color: green;
+}
+.popular-produk-konten2{
+    width: 620px;
+    height: 620px;
+    /* background-color:blue; */
+    display: grid;
+    grid-template: 300px 300px / 300px 300px;
+    grid-gap: 20px;
+}
+.popular-produk{
+    background-color: white;
+}
+#produk-1{
+    display: grid;
+    place-items: center;
+}
+
+#produk-2{
+    display: grid;
+    place-items: center;
+}
+#produk-3{
+    display: grid;
+    place-items: center;
+}
+#produk-4{
+    display: grid;
+    place-items: center;
+}
+/* .hero-img-konten2{
+    width: 600px;
+    height: 620px;
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    float: left;
+}
+
+.popular-container{
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+.produk{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+} */
+
+/* BAGIAN SECTION KETIGA */
+.konten-ketiga-1{
+    background-image: url(img-assets/Group\ 74.svg);
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+
+/* .konten-ketiga-1 img{
+    width: 100%;
+    height: 100%;
+} */
+
+.judul-konten3 p{
+    font-size: 56px;
+    color: white;
+    font-family: Unna;
+    padding-bottom: 50px;
+}
+
+.text-konten3 p{
+    
+    font-size: 24px;
+    color: white;
+    font-family: Unna;
+}
+.p-konten3{
+    float: right;
+    margin-top: 200px;
+    margin-right: 300px;
+    box-sizing: border-box;
+}
+
+/* BAGIAN FOOTER  */
+footer{
+    margin-top: 1%;
+    width: 100%;
+    height: 355px;
+    /* background-color: lightyellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 10px dashed black;
+    box-sizing: border-box;
+}
+.copyright{
+    width: 228px;
+    height: 254px;
+    /* background-color: salmon; */
+    box-sizing: border-box;
+    margin-left: 5%;
+    
+}
+/* .text-copyright{
+    
+} */
+.text-copyright p{
+    padding-top: 40%;
+    font-family: Poppins;
+    
+}
+.justshopping{
+    width: 600px;
+    /* height: 64px; */
+    /* background-color: lightcyan; */
+    /* align-self: center;
+    justify-self: center; */
+}
+
+.justshopping p{
+    font-family: Unlock;
+    font-size: 36px;
+    text-align: center;
+}
+
+span{
+    opacity: 1;
+    transition: all 0.4s ease;
+    color: #7895B2;
+
+}
+
+span.fade{
+    opacity: 1;
+    color: black;
+}
+.social-media{
+    width: 84px;
+    height: 61px;
+    /* background-color: coral; */
+    /* align-self: center; */
+    box-sizing: border-box;
+    margin-right: 5%;
+
+}
+.icon-social-media svg{
+    padding-right: 4%;
+}
+.social-media p{
+    font-family: Poppins;
+    padding-bottom: 15%;
+}
+.icon-social-media{
+    align-content: flex-end;
+}
